@@ -1,5 +1,6 @@
 *人脸检测马赛克
 
+项目链接：https://aistudio.baidu.com/aistudio/projectdetail/410609
 一、定义待预测数据 以本示例中文件夹下ren1.jpg为待预测图片
 
     !pip install paddlehub==1.6.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -72,6 +73,10 @@
     pil_im1.paste(pil_im2, box)
     plt.figure("girlfriend3")
     plt.imshow(pil_im1)
+    
+    
+    
+    
 
 
     
